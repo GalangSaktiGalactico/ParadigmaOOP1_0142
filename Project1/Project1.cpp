@@ -1,7 +1,3 @@
-#include <iostream>
-#include <string>
-using namespace std;
-
 class mahasiswa {
 private:
 	const int id;
@@ -13,7 +9,7 @@ public:
 	mahasiswa(int pId, string pNama, float pNilai) :id(pId), nama(pNama) { //member initialization list
 		//definisi
 	}
-    
+
 	~mahasiswa() {
 		cout << "Id    = " << id << endl;
 		cout << "Nama  = " << nama << endl;
