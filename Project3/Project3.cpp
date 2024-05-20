@@ -1,6 +1,5 @@
 #include <iostream>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
-}
+#include "anak.h"
+#include "ibu.h"
